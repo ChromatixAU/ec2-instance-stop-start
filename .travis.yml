@@ -12,7 +12,6 @@ env:
     - LAMBDA_DESCRIPTION="Helps manage start and stop schedules to save costs on EC2 instances."
     - LAMBDA_TIMEOUT=15
     - LAMBDA_ROLE=arn:aws:iam::300761597318:role/genericLambdaEC2Manager
-    - LAMBDA_ALIAS=prod
 
     - LAMBDA_RUNTIME=python3.6
     - LAMBDA_MODULE=lambda_function
